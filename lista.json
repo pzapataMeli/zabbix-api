@@ -1,0 +1,58 @@
+[
+{
+    "host": "Prueba1",
+    "interfaces": [
+        {
+            "type": 1,
+            "main": 1,
+            "useip": 1,
+            "ip": "192.168.3.1",
+            "dns": "",
+            "port": "10050"
+        }
+    ],
+    "groups": [
+        {
+            "groupid": "13" 
+        }
+    ],
+    "templates": [
+        {
+            "templateid": "10104"
+        }
+    ],
+    "inventory_mode": 0,
+    "inventory": {
+        "macaddress_a": "",
+        "macaddress_b": ""
+    }
+} 
+,{
+    "host": "Prueba2",
+    "interfaces": [
+        {
+            "type": 1,
+            "main": 1,
+            "useip": 1,
+            "ip": "192.168.3.2",
+            "dns": "",
+            "port": "10050"
+        }
+    ],
+    "groups": [
+        {
+            "groupid": "13"
+        }
+    ],
+    "templates": [
+        {
+            "templateid": "10104"
+        }
+    ],
+    "inventory_mode": 0,
+    "inventory": {
+        "macaddress_a": "",
+        "macaddress_b": ""
+    }    
+}
+]
